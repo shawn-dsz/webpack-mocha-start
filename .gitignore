@@ -3,3 +3,4 @@ dist/
 *.log
 *bundle
 src1/
+*bundle*
