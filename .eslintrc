@@ -1,0 +1,72 @@
+{
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "describe": true,
+    "it": true
+  },
+  "rules": {
+    "brace-style": [
+      2,
+      "1tbs", {
+        "allowSingleLine": true
+      }
+    ],
+    "camelcase": 0,
+    "complexity": [
+      2,
+      10
+    ],
+    "consistent-return": 0,
+    "dot-notation": 0,
+    "eol-last": 0,
+    "key-spacing": 0,
+    "new-cap": 0,
+    "no-console": 0,
+    "no-irregular-whitespace": 0,
+    "no-mixed-spaces-and-tabs": [
+      2,
+      "smart-tabs"
+    ],
+    "no-multi-spaces": 0,
+    "no-script-url": 0,
+    "no-shadow": 0,
+    "no-trailing-spaces": 0,
+    "no-underscore-dangle": 0,
+    "no-unused-vars": [
+      2, {
+        "args": "none",
+        "vars": "all"
+      }
+    ],
+    "no-use-before-define": 0,
+    "one-var": [
+      2,
+      "never"
+    ],
+    "quotes": [
+      2,
+      "single"
+    ],
+    "semi": [
+      2,
+      "never"
+    ],
+    "strict": 0,
+    "valid-jsdoc": [
+      1, {
+        "requireReturn": false
+      }
+    ]
+  }
+}
