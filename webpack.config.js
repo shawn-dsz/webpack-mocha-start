@@ -10,7 +10,7 @@ module.exports = {
   module: {
     preLoaders: [{
       test: /\.js$/,
-      loaders: ['eslint-loader'],
+      loaders: ['eslint'],
       exclude: /(node_modules|bower_components)/
     }],
     loaders: [{
@@ -22,10 +22,6 @@ module.exports = {
     }]
   },
   watch: true,
-  eslint: {
-    configFile: '.eslintrc',
-    quiet: false
-  },
   plugins: [
     // Avoid publishing files when compilation fails
     new webpack.NoErrorsPlugin()
